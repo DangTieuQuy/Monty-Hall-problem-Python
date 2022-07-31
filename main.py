@@ -17,7 +17,7 @@ def A(n): #Odds of winning if you DO NOT choose to change doors
             x=x+1
     return x/n
 
-def B(n): #Odds of winning if you DO NOT choose to change doors
+def B(n): #Odds of winning if you choose to change doors
     x=double(0)
     for a in range (n):
         car=carLocation()
